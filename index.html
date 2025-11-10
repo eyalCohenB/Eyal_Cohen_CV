@@ -1,90 +1,98 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Eyal Cohen | Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&family=Orbitron:wght@600&display=swap" rel="stylesheet">
+</head>
+
 <body>
-<link rel="stylesheet" type="text/css" href="style.css">
-<div class="title-section">
+  <div class="overlay"></div>
+
+  <header class="title-section">
     <img src="./pfp-linkedin.jpg" alt="Eyal Cohen Photo" class="profile-photo">
     <h1>Eyal Cohen</h1>
-</div>
-<div class="content1">
-    <div class="contact-info">
-        <h2>Contact</h2>
-        <p>Email:
-            <a href="mailto: Eyalaxl135@gmail.com">Eyalaxl135@gmail.com</a>
-        </p>
-        <p>LinkedIn:
-            <a href="https://www.linkedin.com/in/eyal-cohen-sw/">LinkedIn</a>
-        </p>
-        <p>GitHub:
-            <a href="https://github.com/eyalCohenB">GitHub</a>
-        </p>
-        <p>Phone: +972-52-374-5553</p>
-    </div>
-    <div class="aboutme">
-        <h2>About me</h2>
+    <h2>Software Engineer | Python & Embedded Systems</h2>
+  </header>
+
+  <main>
+    <section class="content1">
+      <div class="card contact-info">
+        <h3>Contact</h3>
+        <p><strong>Email:</strong> <a href="mailto:Eyalaxl135@gmail.com">Eyalaxl135@gmail.com</a></p>
+        <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/eyal-cohen-sw/">eyal-cohen-sw</a></p>
+        <p><strong>GitHub:</strong> <a href="https://github.com/eyalCohenB">eyalCohenB</a></p>
+        <p><strong>Phone:</strong> +972-52-374-5553</p>
+      </div>
+
+      <div class="card aboutme">
+        <h3>About Me</h3>
         <p>
-            BS.c in Software Engineering.<br>
-            Back-end developer with experience in Python and C.<br>
-            Autodidact, fast and self learner, motivated to learn new and challenging
-            technologies.<br>
-            I am professional, responsible, pay attention to details, work well under
-            pressure<br>
-            and capable of managing priorities and handling multiple tasks
-            simultaneously.<br>
-            In addition, I am a team player with strong communication skills,<br>
-            knows how to work both as part of a team and alone.
+          B.Sc in Software Engineering. Back-end developer experienced in Python and C.
+          Passionate about building efficient systems and integrating AI, embedded, and acoustic technologies.
+          Known for responsibility, precision, and the ability to thrive under pressure.
         </p>
-    </div>
-    <div class="skills">
+      </div>
+
+      <div class="card skills">
         <h3>Skills</h3>
         <ul>
-            <li>Languages: Python, Bash, Java, JavaScript, HTML, CSS, SQL</li>
-            <li>Enviroments: Linux</li>
-            <li>Technologies: REST API, AWS (EC2, S3)</li>
-            <li>Databases: MySQL, MongoDB</li>
-            <li>Tools: Git, Docker, Embedded micro controllers</li>
+          <li><strong>Languages:</strong> Python, Bash, Java, JavaScript, HTML, CSS, SQL</li>
+          <li><strong>Environments:</strong> Linux</li>
+          <li><strong>Technologies:</strong> REST API, AWS (EC2, S3)</li>
+          <li><strong>Databases:</strong> MySQL, MongoDB</li>
+          <li><strong>Tools:</strong> Git, Docker, Embedded microcontrollers</li>
         </ul>
-    </div>
-</div>
-<div class="content2">
-    <div class="experience">
-        <h2>Experience</h2>
-        <h3>Developer at Underwater Acoustic & Navigation Lab - University of Haifa | 05/2023 - present</h3>
-        <ul>
-            <li>Developed and maintained APIs using Python and Flask framework.</li>
-            <li>Collaborated with other developers to integrate our lab's systems into existing products.</li>
-            <li>Architectured and developed entire underwater acoustic systems inclueding self made acoustic recorders using micro-controllers, data and memory managment automations.</li>
-            <li>Created technical guides that are used constantly by the software staff in our lab</li>
-            <li>Worked with Image and Acoustic processing AI models</li>
-        </ul>
-    </div>
-    <div class="education">
-        <h2>Education</h2>
-        <h3>B.Sc. in Software Engineering - Ort Braude Karmiel | 2021 - 2025 (expected)</h3>
-        <ul>
-            <li>Relevant Coursework: Data Structures and Algorithms, Database Systems, Operating Systems, Web Development, Software Engineering Principles.</li>
-        </ul>
-    </div>
-    <div class="military">
-        <h2>Military Service</h2>
-        <h3>IDF - Navy | 2015 - 2018</h3>
-        <ul>
-            <li>Served as Radar technician course head commander in the navy's training base, leading teams of soldiers in the procces of becoming an integral part of the navy's Radar technicians.</li>
-            <li>Received commendations for leadership and dedication to duty.</li>
-        </ul>
-    </div>
-    <div class="Languages">
-        <h2>Languages</h2>
-        <ul>
-            <li>Hebrew - Native</li>
-            <li>English - Fluent</li>
-        </ul>
-    </div>
-</div>
-  
+      </div>
+    </section>
 
+    <section class="content2">
+      <div class="card experience">
+        <h3>Experience</h3>
+        <h4>Developer, Underwater Acoustic & Navigation Lab - Univ. of Haifa</h4>
+        <p class="subtext">May 2023 – Present</p>
+        <ul>
+          <li>Developed APIs with Python & Flask for real-time systems.</li>
+          <li>Integrated lab systems into existing oceanographic products.</li>
+          <li>Architected underwater acoustic systems with microcontrollers.</li>
+          <li>Created technical guides for lab developers.</li>
+          <li>Worked with AI models for image & acoustic analysis.</li>
+        </ul>
+      </div>
+
+      <div class="card education">
+        <h3>Education</h3>
+        <h4>B.Sc. Software Engineering – Ort Braude, Karmiel</h4>
+        <p class="subtext">2021 – 2025 (expected)</p>
+        <ul>
+          <li>Focused on systems programming, databases, and web development.</li>
+        </ul>
+      </div>
+
+      <div class="card military">
+        <h3>Military Service</h3>
+        <h4>IDF Navy | Radar Technician Course Commander</h4>
+        <p class="subtext">2015 – 2018</p>
+        <ul>
+          <li>Led teams through advanced technical radar training programs.</li>
+          <li>Received commendations for leadership and excellence.</li>
+        </ul>
+      </div>
+
+      <div class="card languages">
+        <h3>Languages</h3>
+        <ul>
+          <li>Hebrew – Native</li>
+          <li>English – Fluent</li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2025 Eyal Cohen | Built with ❤️ using HTML & CSS</p>
+  </footer>
 </body>
 </html>
-
-
-<!-- <p>B.Sc. in Software Engineering, 2021 - 2025</p> -->
